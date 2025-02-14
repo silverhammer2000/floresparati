@@ -93,6 +93,21 @@ h1 {
     animation: fadeInPetal 0.5s ease-in-out both;
 }
 
+/* Estilos para el contenedor */
+.container {
+    position: fixed; /* Fija el div en la pantalla */
+    top: 50%; /* Lo centra verticalmente */
+    left: 50%; /* Lo centra horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta el centrado */
+    z-index: 9999; /* Lo coloca por encima de todo */
+    background-color: red; /* Fondo rojo */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    text-align: center; /* Centra el texto */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra para resaltar */
+}
+
+/* Estilos para los botones */
 .buttons {
     margin-top: 20px;
 }
@@ -110,5 +125,4 @@ h1 {
 .btn:hover {
     background-color: #ffcccb; /* Cambia el color al pasar el mouse */
 }
-
 
