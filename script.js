@@ -53,7 +53,7 @@ function createFlower() {
             const disappearanceTime = Math.random() * 3000 + 2000;
 
             // Agrega una animación de salida a los pétalos con el tiempo aleatorio de desaparición
-            petal.style.animation = `fadeOutPetal 0.5s ease-in-out both ${i * 0.1}s, fadeOutFlower 0.5s ease-in-out both ${disappearanceTime}s`;
+            petal.style.animation = `fadeOutPetal 0.30s ease-in-out both ${i * 0.5}s, fadeOutFlower 0.5s ease-in-out both ${disappearanceTime}s`;
         }
 
         flower.style.position = "fixed";
